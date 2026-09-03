@@ -20,7 +20,7 @@ function decrement()
     setCount(count>1?count-1:1);
 }
 
-function sayHhtml()
+function sayHtml()
 {
 
     setMessage("Html stands for hypertext markup language");
@@ -39,8 +39,10 @@ function sayJs(m)
 
 
 
-<button className='btn btn-danger m-1' onClick={sayHhtml}>Html</button>
-<button className='btn btn-primary m-1' onClick={()=>setMessage("Cascading Style Sheet")}>Css</button>
+<button className='btn btn-danger m-1' onClick={sayHtml}>Html</button>
+
+<button className='btn btn-primary m-1' onClick={()=>setMessage("hello css")}>Css</button>
+
 <button className='btn btn-info m-1' onClick={()=>{sayJs("add the functionality")}}>Js</button>
 
 
