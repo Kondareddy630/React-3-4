@@ -3,6 +3,7 @@ import Users from './components/Users'
 import Products from './components/Products'
 import Event1 from './components/eventbinding/event1'
 import Eventarg from './components/eventbinding/Eventarg'
+import Formbind from './components/eventbinding/Formbind'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 
 
 
-<Eventarg></Eventarg>
+<Formbind></Formbind>
 
 
 
